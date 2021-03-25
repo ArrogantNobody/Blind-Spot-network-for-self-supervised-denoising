@@ -1,0 +1,2 @@
+python train.py --preprocess True --batchSize 1 --mode B --val_noiseL 25
+python test.py --num_of_layers 20 --logdir logs --test_data Set12 --test_noiseL 25
